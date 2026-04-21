@@ -1,16 +1,16 @@
-# 📦 Section 3: AnnData — Annotated Data for Single-Cell Analysis
+# 📦 Section 3: AnnData - Annotated Data for Single-Cell Analysis
 
 Two notebooks exploring the **AnnData** data structure: first building one from scratch, then dissecting a real preprocessed PBMC dataset to understand every component in depth.
 
 > 📚 **Tutorial Sources:**
-> - [AnnData Getting Started — ReadTheDocs](https://anndata.readthedocs.io/en/latest/tutorials/notebooks/getting-started.html)
+> - [AnnData Getting Started - ReadTheDocs](https://anndata.readthedocs.io/en/latest/tutorials/notebooks/getting-started.html)
 > - [scverse AnnData Tutorial](https://scverse-tutorials.readthedocs.io/en/latest/notebooks/anndata_getting_started.html)
 
 ---
 
 ## 📌 Overview
 
-`AnnData` is the core data container of the scverse ecosystem. It stores the expression matrix alongside rich cell and gene metadata, embeddings, graphs, and arbitrary annotations — all in one object that can be saved to and loaded from disk efficiently.
+`AnnData` is the core data container of the scverse ecosystem. It stores the expression matrix alongside rich cell and gene metadata, embeddings, graphs, and arbitrary annotations - all in one object that can be saved to and loaded from disk efficiently.
 
 ---
 
@@ -72,7 +72,7 @@ AnnData  n_obs × n_vars  (cells × genes)
 
 ---
 
-## 📖 Notebook 1 — `anndata_intro_tutorial.ipynb`
+## 📖 Notebook 1 - `anndata_intro_tutorial.ipynb`
 
 **Build an AnnData from scratch** using synthetic Poisson count data.
 
@@ -124,7 +124,7 @@ copy  = adata[:5, ['Gene_1', 'Gene_3']].copy() # independent copy
 
 ---
 
-## 📖 Notebook 2 — `anndata_tutorial.ipynb`
+## 📖 Notebook 2 - `anndata_tutorial.ipynb`
 
 **Explore a real preprocessed PBMC3k dataset** — all AnnData slots with real biological data.
 
